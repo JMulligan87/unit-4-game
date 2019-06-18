@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crystal Collector</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><strong>Crystal Collector</strong></h1>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Instructions
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            <small>You will be given a random number at the start of the game. There are four crystals
+                                below.
+                                By clicking on a crystal you will add a specific amount of points to your total score.
+                                You win the game by matching your total score to random number, you lose the game if
+                                your total score goes above the random number. The value of each crystal is hidden from
+                                you until you click on it. Each time when the game starts, the game will change the
+                                values
+                                of each crystal</small>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Target Score
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center" id="target-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Your Score
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center" id="target-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Crystal Selection
+                    </div>
+                    <div class="card-body text-center">
+                        <img src="assets/images/blue.png" id="blue">
+                        <img src="assets/images/green.png" id="green">
+                        <img src="assets/images/red.png" id="red">
+                        <img src="assets/images/yellow.png" id="yellow">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Win Count
+                    </div>
+                    <div class="card-body">
+                        <h3 class="text-center" id="target-score"></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            Loss Count
+                        </div>
+                        <div class="card-body">
+                            <h3 class="text-center" id="target-score"></h3>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
