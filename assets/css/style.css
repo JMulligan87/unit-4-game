@@ -1,3 +1,6 @@
+body {
+    background-image: url(../images/memphis-mini.png);
+}
 .jumbotron {
     text-align: center;
     background-color: mediumseagreen;
